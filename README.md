@@ -65,4 +65,18 @@ nano docker-compose.yaml
 ```
 "--ethstats=NAMA_VALIDATOR:TESTNET_ACCESS_KEY@stats.qtestnet.org",
 ```
-**Nama_validator ganti nama kalian**
+**Nama_validator ganti nama kalian, Contoh Cek gambar**
+<p align="center">
+  <img height="300" height="auto" src="https://user-images.githubusercontent.com/109174478/210149630-76e72608-575e-41bb-b324-a22d8b26347e.jpg">
+</p>
+
+```
+docker compose up -d
+```
+Cek Log Node
+```
+docker compose logs -f
+```
+**Jika mau stop log gunankan CTRL+Z**
+
+Done. Cek node kalian : https://stats.qtestnet.org/
