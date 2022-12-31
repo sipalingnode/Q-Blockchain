@@ -41,3 +41,15 @@ BOOTNODE6_ADDR=enode://1032c556fbbfe37761951a20c2b98b4031234a8f871cc79dd8ff612a3
 BOOTNODE7_ADDR=enode://e974d9354ababd356a6bfecbb03a59d14ab715ffa02d431c6accfc5de250e9c8c345817bd5687c119a04df78f1a4673e97877ea5775fa84270d311dac4a2eca7@128.199.213.70:30313
 ```
 **Kemudian simpan CTRL+XY lalu ENTER**
+## Edit File .json
+```
+nano config.json
+```
+<p align="center">
+  <img height="300" height="auto" src="https://user-images.githubusercontent.com/109174478/210146288-05361ca5-7c75-4b88-95dc-7a60fe7c30c3.jpg">
+</p>
+
+- Address = Isi address kalian tanpa 0x
+- Password = isi password yang dah dibuat, jika lupa pake command cek password `cat keystore/pwd.txt`
+
+**Kemudian Simpan CTRL+XY lalu ENTER**
