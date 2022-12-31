@@ -19,6 +19,9 @@ nano keystore/pwd.txt
 **Kemudian CTRL+X+Y Enter**
 ## Create Wallet
 ```
+cd
+```
+```
 docker run --entrypoint="" --rm -v $PWD:/data -it qblockchain/q-client:testnet geth account new --datadir=/data --password=/data/keystore/pwd.txt
 ```
 ## Claim Faucet : https://faucet.qtestnet.org/
