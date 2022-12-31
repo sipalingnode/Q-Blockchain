@@ -14,7 +14,7 @@ echo  "   ████         ████  ██████  █████
 echo -e "\e[35m"
 echo "================================================================="
 
-echo -e '\e[35mNode :\e[35m' Mises-Mainnet
+echo -e '\e[35mNode :\e[35m' Q-Blockchain
 echo -e '\e[35mTelegram Group :\e[35m' @autosultan_group
 echo -e '\e[35mTelegram Channel :\e[35m' @airdropasc
 echo -e '\e[35mYoutube :\e[35m' auto sultan
