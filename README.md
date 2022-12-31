@@ -57,3 +57,12 @@ nano config.json
 ```
 docker run --rm -v $PWD:/data -v $PWD/config.json:/build/config.json qblockchain/js-interface:testnet validators.js
 ```
+## Daftar Validator
+```
+nano docker-compose.yaml
+```
+**Pada bagian setelah "geth" tambahkan**
+```
+"--ethstats=NAMA_VALIDATOR:TESTNET_ACCESS_KEY@stats.qtestnet.org",
+```
+**Nama_validator ganti nama kalian**
