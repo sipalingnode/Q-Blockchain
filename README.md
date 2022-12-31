@@ -53,3 +53,7 @@ nano config.json
 - Password = isi password yang dah dibuat, jika lupa pake command cek password `cat keystore/pwd.txt`
 
 **Kemudian Simpan CTRL+XY lalu ENTER**
+## Stake Contract
+```
+docker run --rm -v $PWD:/data -v $PWD/config.json:/build/config.json qblockchain/js-interface:testnet validators.js
+```
